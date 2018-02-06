@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(to top left, #222, #333);
+}
+
+.logo {
+  margin-top: 2em;
+}
+
+.app__title {
+  text-transform: uppercase;
+  font-size: 1.6em;
+  letter-spacing: 0.01em;
+  font-weight: 900;
+  margin-top: 1em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 992px) {
+  .app__title {
+    font-size: 2.6em;
+  }
+}
