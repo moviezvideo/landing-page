@@ -23,7 +23,7 @@ class App extends Component {
               </h1>
             </Col>
           </Row>
-          <Row className="app__icons">
+          <Row middle="xs" className="app__icons">
             <Col xs={7}>
               <Row center="xs" around="xs">
                 <Col xs={3}>
@@ -54,7 +54,23 @@ class App extends Component {
                 </Col>
               </Row>
             </Col>
-            <Col xs={5}>form aqui</Col>
+            <Col xs={5}>
+              <h2 className="app__form__title">Subscribe now</h2>
+              <form className="app__form">
+                <input
+                  type="email"
+                  required
+                  className="app__form__input"
+                  placeholder="Enter your email"
+                />
+                <button type="submit" className="app__form__submit">
+                  OK
+                </button>
+              </form>
+              <h3 className="app__form__subtitle">
+                And get notified when<br />the service is online!
+              </h3>
+            </Col>
           </Row>
         </Grid>
       </div>
