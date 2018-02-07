@@ -56,9 +56,15 @@ class App extends Component {
             </Col>
             <Col xs={5}>
               <h2 className="app__form__title">Subscribe now</h2>
-              <form className="app__form">
+              <form
+                action="https://video.us17.list-manage.com/subscribe/post?u=a451e5e8f9441bb0fad48306c&amp;id=0112696990"
+                method="post"
+                target="_blank"
+                className="app__form"
+              >
                 <input
                   type="email"
+                  name="EMAIL"
                   required
                   className="app__form__input"
                   placeholder="Enter your email"
@@ -66,10 +72,28 @@ class App extends Component {
                 <button type="submit" className="app__form__submit">
                   OK
                 </button>
+                <div
+                  style={{ position: "absolute", left: "-5000px" }}
+                  aria-hidden="true"
+                >
+                  <input
+                    type="text"
+                    name="b_a451e5e8f9441bb0fad48306c_0112696990"
+                    tabindex="-1"
+                    value=""
+                  />
+                </div>
               </form>
               <h3 className="app__form__subtitle">
                 And get notified when<br />the service is online!
               </h3>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12}>
+              <div className="app__footer">
+                © 2018 Moviez - All rights reserved.
+              </div>
             </Col>
           </Row>
         </Grid>

@@ -97,6 +97,15 @@
 .app__form__submit:hover {
   background: #c84c3e9a;
 }
+.app__footer {
+  margin-top: 2em;
+  height: 1em;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 300;
+  font-size: 0.8em;
+}
 
 @media only screen and (min-width: 768px) {
   .app {
