@@ -24,9 +24,9 @@ class App extends Component {
             </Col>
           </Row>
           <Row middle="xs" className="app__icons">
-            <Col xs={7}>
+            <Col xs={12} sm={7}>
               <Row center="xs" around="xs">
-                <Col xs={3}>
+                <Col xs={4} sm={3}>
                   <img
                     src={anonymousIconSvg}
                     className="app__icon"
@@ -36,7 +36,7 @@ class App extends Component {
                     100% safe<br />Without login
                   </p>
                 </Col>
-                <Col xs={3}>
+                <Col xs={4} sm={3}>
                   <img
                     src={opensourceIconSvg}
                     className="app__icon"
@@ -46,7 +46,7 @@ class App extends Component {
                     Open source<br />Self-hosted<br />
                   </p>
                 </Col>
-                <Col xs={3}>
+                <Col xs={4} sm={3}>
                   <img src={adsIconSvg} className="app__icon" alt="No ads" />
                   <p className="app__icon__description">
                     No ads<br />Now and never<br />
@@ -54,7 +54,7 @@ class App extends Component {
                 </Col>
               </Row>
             </Col>
-            <Col xs={5}>
+            <Col xs={12} sm={5}>
               <h2 className="app__form__title">Subscribe now</h2>
               <form
                 action="https://video.us17.list-manage.com/subscribe/post?u=a451e5e8f9441bb0fad48306c&amp;id=0112696990"
